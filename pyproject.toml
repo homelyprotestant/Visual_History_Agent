@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-history-agent"
+version = "0.1.0"
+description = "Visual History Agent — embeddings to painting description, maps, and comparison"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "torch",
+  "torchvision",
+  "timm",
+  "tqdm",
+  "scikit-learn",
+  "openpyxl",
+  "python-dotenv",
+  "openai",
+  "matplotlib",
+  "faiss-cpu",
+  "scipy",
+  "Pillow",
+]
+
+[project.scripts]
+visual-history-agent = "visual_history_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["visual_history_agent*"]

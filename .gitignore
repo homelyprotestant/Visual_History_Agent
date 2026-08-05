@@ -1,0 +1,53 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.egg-info/
+.Python
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python / OS junk
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Large / regenerated data (codebase-only repo)
+/data/models/
+/data/artifacts/
+/data/embeddings/
+/data/outputs/
+/data/Painting_Databaseb.xlsx
+/data/**/*.npy
+/data/**/*.pth
+/data/**/*.jsonl
+/data/**/*.pdf
+/data/**/*.tex
+/data/**/*.aux
+/data/**/*.log
+/data/**/*.toc
+/data/**/*.out
+
+# Packaged Colab distributions (built locally)
+*.zip
+/Visual_History_Agent.zip
+
+# Keep small demo images + data docs
+!/data/README.md
+!/data/examples/
+!/data/examples/**

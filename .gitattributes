@@ -1,0 +1,4 @@
+# Treat notebooks as text for diffs
+*.ipynb linguist-language=Python
+
+# Do not use Git LFS in this code-only repo

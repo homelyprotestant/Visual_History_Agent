@@ -1,0 +1,17 @@
+faiss-cpu>=1.7
+numpy
+pandas
+torch
+torchvision
+timm
+tqdm
+scikit-learn
+scipy
+Pillow
+openpyxl
+python-dotenv
+openai
+matplotlib
+ipywidgets
+requests
+gdown>=5.2
